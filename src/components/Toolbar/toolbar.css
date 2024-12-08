@@ -1,0 +1,31 @@
+.toolbar {
+    display: flex;
+    max-width: 410px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+button {
+    margin-right: 7px;
+    padding: 7px 10px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0bcbc;
+}
+
+.select {
+    background-color: #c7d7e7;
+    cursor: auto;
+    
+}
+
+.select:hover {
+    background-color: #c7d7e7;
+}

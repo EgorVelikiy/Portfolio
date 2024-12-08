@@ -1,0 +1,21 @@
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.data {
+    column-count: 3;
+}
+
+@media (max-width: 900px) {
+    .data {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 510px) {
+    .data {
+        column-count: 1;
+    }
+}

@@ -1,0 +1,15 @@
+.img {
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: all 0.5s;
+}
+
+.img:hover {
+    filter: opacity(.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transform: scale(1.05);
+}
+
+img {
+    width: 100%;
+}
