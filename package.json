@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://EgorVelikiy.github.io/Portfolio",
+  "homepage": "https://EgorVelikiy.github.io/portfolio",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^18.0.0",

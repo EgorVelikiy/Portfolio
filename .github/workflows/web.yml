@@ -10,9 +10,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        node-version: [15.x]
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
 
-      - name: Build and Deploy React app to GitHub Pages
-        uses: omkartapale/react-deployment-gh-pages@v1.0.0
+      - name: Install and build
+        run: npm install && npm run build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages
+          folder: build
