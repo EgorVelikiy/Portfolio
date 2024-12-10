@@ -6,7 +6,7 @@ export function ProjectList(props) {
     return (
         data.map(item => (
             <div className="img" key={key++}>
-                <img src={item.img} />
+                <img src={item.img} alt=""/>
             </div>
         ))
     )

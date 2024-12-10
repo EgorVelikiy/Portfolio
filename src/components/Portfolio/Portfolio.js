@@ -19,7 +19,7 @@ export function Portfolio() {
 
         const selected = e.target.textContent;
 
-        if (selected != 'All') {
+        if (selected !== 'All') {
             setData(data.filter(img => img.category === selected))
         } else {
             setData(data)
